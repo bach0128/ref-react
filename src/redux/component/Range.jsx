@@ -6,7 +6,7 @@ import "../assets/range.scss";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { update } from "../actions/countdownAction";
+import { update } from "../actions/countDownAction";
 
 function Range() {
   const rangeNumber = useSelector((state) => state.range.rangeNumber);

@@ -2,7 +2,7 @@ import React, { Fragment, useEffect, useLayoutEffect, useState } from "react";
 import "../assets/history.scss";
 import { toast } from "react-toastify";
 import { useDispatch, useSelector } from "react-redux";
-import { decrement } from "../actions/countdownAction";
+import { decrement } from "../actions/countDownAction";
 import { add } from "../actions/historyAction";
 
 export default function History() {
