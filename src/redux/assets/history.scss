@@ -1,0 +1,46 @@
+.check-number {
+    outline: none;
+    border: 1px solid #0db4d5;
+    background-color: #1b1f22;
+    color: #0db4d5;
+    background: #1b1f22;
+}
+
+.check-number::-webkit-inner-spin-button {
+    display: none;
+}
+
+.check-number::-webkit-input-placeholder {
+    color: #0db4d5;
+}
+
+.history {
+    background: #1b1f22;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 100px;
+    border: 2px solid #0db4d5;
+    border-radius: 10px;
+    .btn-close {
+        margin-left: calc(100% - 24px);
+        background-color:#0db4d5;
+    }
+    .table {
+        color: #fff;
+        border-bottom: 1px solid teal;
+    }
+    .table th, 
+    .table td
+    {
+        color: #fff;
+        background-color: #1b1f22;
+        border-bottom: 1px solid teal;
+    }
+}
+
+.restart.hidden {
+    display: none;
+}
+
+
+

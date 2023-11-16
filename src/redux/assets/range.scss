@@ -1,0 +1,31 @@
+
+.range-input {
+    position: relative;
+    height: 1rem;
+}
+
+.form-range::-webkit-slider-thumb {
+    background-color: #0dcaf0;
+    position: relative;
+    z-index: 10;
+}
+
+.form-range::-webkit-slider-runnable-track {
+    opacity: .8;
+}
+
+.slider-filled {
+    position: absolute;
+    background-color: #0dcaf0;
+    width: 100px;
+    height: .5rem;
+    top: 147px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
